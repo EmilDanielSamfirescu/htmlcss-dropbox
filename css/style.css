@@ -43,7 +43,7 @@ body {
     max-width: 70%;
     margin:  auto;
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
 .container-main {
@@ -64,9 +64,15 @@ HEADER
 */
 
 .header-top {
-    height: 10vh;
+    background-color: white;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
     }
 
 .col-header-top {
@@ -93,7 +99,8 @@ header nav ul li {
 
 .jumbo-box {
     background-color: #B3D0E7;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
+    margin-top: 80px;
 }
 
 .jumbo-box img {
@@ -116,8 +123,11 @@ h1 {
 }
 
 
-.jumbo-button, .p-jumbo {
+.jumbo-button {
     margin: 20px 0;
+}
+.p-jumbo {
+    margin-bottom: 20px ;
 }
 
 .jumbo-button a:link, .jumbo-button a:visited {
@@ -138,6 +148,8 @@ h1 {
 /* 
 MAIN 
 */
+
+
 
 .col-gutter {
     width: calc((100% / 3) - 40px);
