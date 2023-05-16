@@ -24,10 +24,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.my-row-header {
+.my-row-no-m {
     display: flex;
     flex-wrap: wrap;
 }
+
+
 
 .my-row {
     display: flex;
@@ -49,6 +51,10 @@ body {
 /* 
 HEADER 
 */
+
+.header-top {
+    justify-content: space-between;
+    }
 
 .header-bottom {
     background-color: #B3D0E7;
@@ -76,11 +82,66 @@ MAIN
     margin: 0 20px;
 }
 
+.col-main-small {
+    width: 40%;
+    height: 300px;
+}
+
+.col-main-big {
+    width: 60%;
+}
+
+.griglia-x-6 {
+    width: calc((100% / 3) - 40px);
+    margin: 10px 20px;
+}
+
+.griglia-x-6 img {
+    width: 100%;
+    display: block;
+}
+
+.col-big-main {
+    width: calc(100% / 3);
+}
+
+.col-big-main > .partners {
+    width: calc(100% / 2);
+}
+
+.col-big-main > .partners {
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.top-middle {
+    height: 40%;
+}
+
+.bottom-middle {
+    height: 60%;
+}
+
+
+
+
+
+
+
 
 
 /* 
 FOOTER 
 */
+
+footer nav {
+    width: calc(100% / 5);
+}
+
+footer nav ul {
+    list-style: none;
+}
 
 /* 
 DEBUG 
@@ -88,10 +149,9 @@ DEBUG
 
 .debug .header-top {
 background-color: antiquewhite;
-justify-content: space-between;
 }
 
-.debug .col, .row{
+.debug .col, .row, .griglia-x-6, .col-big-main, .--lateral, .top-middle, .bottom-middle{
     border: 1px dashed black;
 }
 
@@ -123,13 +183,28 @@ justify-content: space-between;
     height: 300px;
 }
 
-.debug
+.debug .griglia-x-6 {
+    background-color: coral;
+    height: 500px;
+} 
 
-.debug
+.debug .col-big-main > .partners {
+    border: 1px dashed black;
+    width: calc(100% / 2);
+}
 
-.debug
+.debug .partners {
+    background-color: gold;
+    height: calc(100vw / 6);
+}
 
-.debug
+.debug .partners {
+    background-image: url('../img/arizona_state_university.svg');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
 
 .debug
 
