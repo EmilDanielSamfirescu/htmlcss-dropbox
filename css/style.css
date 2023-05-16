@@ -22,6 +22,7 @@ GENERAL
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #3d3d3d;
 }
 
 .my-row-no-m {
@@ -39,39 +40,100 @@ body {
 
 
 .container-header {
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 70%;
+    margin:  auto;
+    position: relative;
+    top: 60px;
 }
 
 .container-main {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
 }
+
+nav > ul > li > a {
+    list-style: none;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+
 
 /* 
 HEADER 
 */
 
 .header-top {
+    height: 10vh;
     justify-content: space-between;
+    align-items: center;
     }
 
-.header-bottom {
-    background-color: #B3D0E7;
+.col-header-top {
+    width: calc(100% / 2);
+}
+
+.headre-top-right nav {
+    text-align: right;
+    vertical-align: middle;
+}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.blue-button {
+    background:#0160FF ;
+    color: white;
+    padding: 5px 15px;
 }
 
 
+.jumbo-box {
+    background-color: #B3D0E7;
+    margin-bottom: 150px;
+}
+
+.jumbo-box img {
+    width: 100%;
+    display: block;
+}
+
 h1 {
-    text-align: center;
+    font-size: 3.5em;
+    padding-bottom: 30px;
+    color: black;
 }
 
 .col-header-small {
-    width: 40%;
+    width: 35%;
 }
 
 .col-header-big {
-    width: 60%;
+    width: 65%;
 }
+
+
+.jumbo-button, .p-jumbo {
+    margin: 20px 0;
+}
+
+.jumbo-button a:link, .jumbo-button a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.delete a:link, .delete a:visited {
+    color: #3d3d3d;
+}
+
+.fa-arrow-down {
+    font-size: 3em;
+}
+
+
 
 /* 
 MAIN 
@@ -139,25 +201,20 @@ footer nav {
     width: calc(100% / 5);
 }
 
-footer nav ul {
-    list-style: none;
-}
 
 /* 
 DEBUG 
 */
 
-.debug .header-top {
-background-color: antiquewhite;
-}
+.debug
 
 .debug .col, .row, .griglia-x-6, .col-big-main, .--lateral, .top-middle, .bottom-middle{
     border: 1px dashed black;
 }
 
-.debug .header-bottom {
+/* .debug .header-bottom {
     height: 500px;
-}
+} */
 
 .debug .container-main {
     border: 1px dashed red;
