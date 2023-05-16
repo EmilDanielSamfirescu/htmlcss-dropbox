@@ -1,7 +1,9 @@
 /* 
 TIPHOGRAPHY SYSTEM
 -COLORS
-
+#B3D0E7
+#0160FF
+#61092B
 */
 
 /* 
@@ -22,13 +24,59 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.my-row-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+
+.container-header {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container-main {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 /* 
 HEADER 
 */
 
+.header-bottom {
+    background-color: #B3D0E7;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.col-header-small {
+    width: 40%;
+}
+
+.col-header-big {
+    width: 60%;
+}
+
 /* 
 MAIN 
 */
+
+.col-gutter {
+    width: calc((100% / 3) - 40px);
+    margin: 0 20px;
+}
+
+
 
 /* 
 FOOTER 
@@ -37,3 +85,60 @@ FOOTER
 /* 
 DEBUG 
 */
+
+.debug .header-top {
+background-color: antiquewhite;
+justify-content: space-between;
+}
+
+.debug .col, .row{
+    border: 1px dashed black;
+}
+
+.debug .header-bottom {
+    height: 500px;
+}
+
+.debug .container-main {
+    border: 1px dashed red;
+}
+
+.debug .col-gutter {
+    height: 500px;
+    background-color: cadetblue;
+}
+
+.debug .row{
+    border: 1px dashed black;
+    height: 300px;
+    margin-top: 50px;
+    background-color: cadetblue;
+}
+
+.debug .col--small {
+    height: 300px;
+}
+
+.debug .col--big {
+    height: 300px;
+}
+
+.debug
+
+.debug
+
+.debug
+
+.debug
+
+.debug
+
+.debug
+
+.debug
+
+.debug
+
+.debug
+
+.debug
