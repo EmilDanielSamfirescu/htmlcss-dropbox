@@ -100,7 +100,7 @@ header nav ul li {
 .jumbo-box {
     background-color: #B3D0E7;
     margin-bottom: 200px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .jumbo-box img {
@@ -109,8 +109,8 @@ header nav ul li {
 }
 
 h1 {
-    font-size: 3.5em;
-    padding-bottom: 30px;
+    font-size: 4.5em;
+    padding-bottom: 50px;
     color: black;
 }
 
@@ -124,10 +124,10 @@ h1 {
 
 
 .jumbo-button {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .p-jumbo {
-    margin-bottom: 20px ;
+    margin-bottom: 40px ;
 }
 
 .jumbo-button a:link, .jumbo-button a:visited {
@@ -153,13 +153,26 @@ MAIN
     margin: 0 20px;
 }
 
-.col-main-small {
+.col-main-small, .col-row-small {
     width: 40%;
-    height: 300px;
 }
 
-.col-main-big {
+.col-main-big, .col-row-big {
     width: 60%;
+    
+}
+
+.row{
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.col-row-big > *  {
+    margin: 0 30px;
+}
+
+.col-row-small > * {
+    margin: 0 50px;
 }
 
 .griglia-x-6 {
@@ -247,12 +260,13 @@ h4 {
 
 h5 {
     margin-top: 40px;
+    font-size: 1em;
 }
 
 hr.hr-main{
     width: 25%;
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-color: #9f9f9f;
 }
 
@@ -275,17 +289,68 @@ hr.hr-main{
     margin-bottom: 20px;
 }
 
-.buy {
+.scritta-blu {
     padding-left: 5px;
 }
 
-.buy:link, .buy:visited {
+.scritta-blu:link, .scritta-blu:visited {
     color: #0160FF;
 }
 
 .fa-check {
     color: #0160FF;
 }
+
+.col-row-big > h4 {
+    margin-top: 30px;
+}
+
+.col-row-big > p {
+    margin-bottom: 20px;
+}
+
+.col-row-big > h6 {
+    font-size: 0.8em;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.row-button {
+    margin-top: 30px;
+}
+
+.contatti-partner {
+    margin-top: 150px;
+}
+
+.col-main-big > img {
+    width: 100%;
+    display: block;
+}
+
+.contatti-partner > .col-main-small {
+    padding: 20px 30px 0 40px;
+}
+
+.contatti-partner > .col-main-small > p {
+    padding: 40px 0;
+}
+
+.empty-button > a {
+    border: 2px solid #7f7f7f;
+}
+
+.empty-button > a:link, .empty-button > a:visited {
+    color: #7f7f7f;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -310,13 +375,14 @@ footer a:link, footer a:visited {
 }
 
 
+
 /* 
 DEBUG 
 */
 
 .debug
 
-.debug .col, .row, .griglia-x-6, .col-big-main, .--lateral, .top-middle, .bottom-middle{
+.debug .col, .griglia-x-6, .col-big-main, .--lateral, .top-middle, .bottom-middle{
     border: 1px dashed black;
 }
 
@@ -332,12 +398,9 @@ DEBUG
     background-color: cadetblue;
 } */
 
-.debug .row{
-    border: 1px dashed black;
-    height: 300px;
-    margin-top: 50px;
+/* .debug .row{
     background-color: cadetblue;
-}
+} */
 
 .debug .col--small {
     height: 300px;
@@ -370,12 +433,19 @@ DEBUG
     
 }
 
-.debug
+/* .debug .col-main-small {
+    height: 300px;
+} */
 
-.debug
 
-.debug
+/* .debug .col-row-big, .col-row-small {
+    border: 1px dashed red;
+} */
 
-.debug
+/* .debug .contatti-partner, .col-main-big, .col-main-small  {
+    border: 1px dashed black;
+} */
+
+.debug 
 
 .debug
