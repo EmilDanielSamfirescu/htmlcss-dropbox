@@ -209,7 +209,7 @@ MAIN
     height: 60%;
 }
 
-h2 {
+h2.trova-buisness {
     font-size: 2.2em;
     margin-bottom: 50px;
 }
@@ -327,6 +327,10 @@ hr.hr-main{
     display: block;
 }
 
+.big-grill {
+    margin-bottom: 150px;
+}
+
 .contatti-partner > .col-main-small {
     padding: 20px 30px 0 40px;
 }
@@ -343,6 +347,29 @@ hr.hr-main{
     color: #7f7f7f;
     text-decoration: none;
     padding: 10px;
+}
+
+.operazioni {
+    font-size: 2.5em;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.griglia-x-6 > img {
+    width: 100%;
+    display: block;
+}
+
+h4.grill-title {
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.griglia-x-6 > p {
+    padding: 0 10px 40px; 
+    line-height: 1.5em;
 }
 
 
@@ -382,7 +409,7 @@ DEBUG
 
 .debug
 
-.debug .col, .griglia-x-6, .col-big-main, .--lateral, .top-middle, .bottom-middle{
+.debug .col, .col-big-main, .--lateral, .top-middle, .bottom-middle{
     border: 1px dashed black;
 }
 
@@ -410,10 +437,10 @@ DEBUG
     height: 300px;
 }
 
-.debug .griglia-x-6 {
+/* .debug .griglia-x-6 {
     background-color: coral;
     height: 500px;
-} 
+}  */
 
 .debug .col-big-main > .partners {
     border: 1px dashed black;
