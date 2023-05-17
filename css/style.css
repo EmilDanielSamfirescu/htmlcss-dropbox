@@ -40,14 +40,14 @@ body {
 
 
 .container-header {
-    max-width: 70%;
+    max-width: 80%;
     margin:  auto;
     position: relative;
     top: 80px;
 }
 
 .container-main {
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -213,17 +213,24 @@ h2 {
     border: 1px solid black;
 }
 
+.col-gutter > * {
+    padding: 0 15px;
+}
+
 .col-gutter ul {
-    margin: 0 0 40px 0;
+    margin: 25px 0 40px 0;
 }
 
 .col-gutter ul > li {
-    margin: 20px 0;
+    margin-bottom: 20px;
     list-style: none;
 }
+.col-gutter ul > li {
+    display: flex;
+}
 
-.col-gutter > * {
-    padding: 0 15px;
+.col-gutter ul > li > span .fa-solid {
+    padding-right: 10px;
 }
 
 .col-gutter-title {
@@ -242,7 +249,7 @@ h5 {
     margin-top: 40px;
 }
 
-hr {
+hr.hr-main{
     width: 25%;
     margin-left: 15px;
     margin-top: 20px;
@@ -273,6 +280,10 @@ hr {
 }
 
 .buy:link, .buy:visited {
+    color: #0160FF;
+}
+
+.fa-check {
     color: #0160FF;
 }
 
