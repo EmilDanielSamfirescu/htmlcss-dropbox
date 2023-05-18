@@ -530,6 +530,29 @@ footer a:link, footer a:visited {
     text-decoration: none;
 }
 
+.footer-top {
+    padding: 20px 0 30px 0;
+}
+
+.footer-top li {
+    padding: 7px 0;
+}
+
+.footer-bottom {
+    padding-bottom: 40px;
+}
+
+.hr-footer {
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.language > * {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+
 
 
 /* 
@@ -538,17 +561,17 @@ DEBUG
 
 .debug
 
-.debug .col, {
+/* .debug .col, {
     border: 1px dashed black;
-}
+} */
 
 /* .debug .header-bottom {
     height: 500px;
 } */
 
-.debug .container-main {
+/* .debug .container-main {
     border: 1px dashed red;
-}
+} */
 
 /* .debug .col-gutter {
     background-color: cadetblue;
