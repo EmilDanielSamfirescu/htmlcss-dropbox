@@ -485,9 +485,29 @@ h3.bring {
     text-decoration: none;
 }
 
+.questions {
+    margin: 100px auto;
+}
 
+.questions > h3 {
+    padding-bottom: 30px;
+    font-size: 1.6em;
+    color: black;
+}
 
+.faq {
+    display: flex;
+    justify-content: space-between;
+}
 
+.faq > * {
+    padding-right: 20px;
+}
+
+.questions > div {
+    padding: 30px 0;
+    color: black;
+}
 
 
 /* 
