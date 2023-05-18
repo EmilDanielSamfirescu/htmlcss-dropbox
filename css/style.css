@@ -143,6 +143,10 @@ h1 {
     font-size: 3em;
 }
 
+.arrow:link, .arrow:visited {
+    color: black;
+}
+
 /* 
 MAIN 
 */
@@ -159,7 +163,6 @@ MAIN
 
 .col-main-big, .col-row-big {
     width: 60%;
-    
 }
 
 .row{
@@ -315,7 +318,9 @@ hr.hr-main{
     margin-bottom: 40px;
 }
 .row-button {
-    margin-top: 30px;
+    position: relative;
+    top: 40px;
+    left: 80px;
 }
 
 .contatti-partner {
@@ -327,9 +332,9 @@ hr.hr-main{
     display: block;
 }
 
-.big-grill {
+/* .big-grill {
     margin-bottom: 150px;
-}
+} */
 
 .contatti-partner > .col-main-small {
     padding: 20px 30px 0 40px;
@@ -372,9 +377,113 @@ h4.grill-title {
     line-height: 1.5em;
 }
 
+.collaborators {
+    height: calc(100vw / 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-big-main > .collaborators {
+    width: calc(100% / 2);
+}
 
 
+.collaborators > img {
+    display: block;
+    width: 60%;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(34deg) brightness(109%) contrast(111%);
+}
 
+.collaborators.--01 {
+    background-color: #A2D39B;
+}
+
+.col-big-main > .collaborators.--01 {
+    border: 15px solid #D1E9CD;
+}
+
+.collaborators.--02 {
+    background-color: #61092B;
+}
+
+.collaborators.--03 {
+    background-color: #0093CE;
+}
+
+.collaborators.--04 {
+    background-color: #FF1B1C;
+}
+
+.collaborators.--05 {
+    background-color: #D5001F;
+}
+
+.collaborators.--06 {
+    background-color: #B3D0E7;
+}
+
+.collaborators.--07 {
+    background-color: #0E2381;
+}
+
+.collaborators.--08 {
+    background-color: #FFD72F;
+}
+
+.top-middle > img {
+    width: 60%;
+    display: block;
+}
+
+.top-middle {
+    padding: 30px;
+}
+
+.designit-line {
+    margin-top: 40px;
+    width: 90px;
+}
+
+.bottom-middle {
+    padding-left: 30px ;
+}
+
+.quote {
+    margin-top: 30px;
+}
+
+.drop-buisnes {
+    padding-right: 400px;
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.drop-buisnes-center {
+    margin: 150px 0;
+}
+
+.large-main {
+    background-color: #B3D0E7;
+}
+
+h3.bring {
+    font-size: 2em;
+    margin: 100px 0;
+    color: black;
+}
+
+.prova {
+    margin: 110px 0 0 100px;
+}
+
+.prova a:link, .prova a:visited {
+    padding: 15px;
+    background-color: white;
+    color: #3d3d3d;
+    text-decoration: none;
+}
 
 
 
@@ -409,7 +518,7 @@ DEBUG
 
 .debug
 
-.debug .col, .col-big-main, .--lateral, .top-middle, .bottom-middle{
+.debug .col, {
     border: 1px dashed black;
 }
 
@@ -442,23 +551,11 @@ DEBUG
     height: 500px;
 }  */
 
-.debug .col-big-main > .partners {
-    border: 1px dashed black;
-    width: calc(100% / 2);
-}
+.debug 
 
-.debug .partners {
-    background-color: gold;
-    height: calc(100vw / 6);
-}
+.debug 
 
-.debug .partners {
-    background-image: url('../img/arizona_state_university.svg');
-    background-position: center;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    
-}
+.debug 
 
 /* .debug .col-main-small {
     height: 300px;
